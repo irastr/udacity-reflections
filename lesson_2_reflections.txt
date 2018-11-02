@@ -5,18 +5,22 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 	
-	
+	Staging area is the copy of the most resent commits  untill i made changes to it, repository contains several commits and each contais several files. Working derectory the same files with updates.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	 Each new feature - new brunch. 
 
 How do the diagrams help you visualize the branch structure?
+	 I've understood that: Когда мы переходим на новый коммит и делаем там изменение гит ответвляет его подобно ветке  и делает недоступным предыдущие изменения (not reachable).  Если мы хотим видеть пред коммиты - git branch new-branch, git checkout new-branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
